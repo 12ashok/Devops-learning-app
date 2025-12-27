@@ -1,9 +1,9 @@
 const axios = require('axios');
 
 // 1. Setup your credentials
-const JENKINS_URL = 'http://<your-ec2-ip>:8080';
+const JENKINS_URL = 'http://204.236.201.245/:8080';
 const USER = 'admin';
-const API_TOKEN = 'your_copied_api_token';
+const API_TOKEN = '11499294a972aa8b8bd7b76b02eb585cbe';
 const JOB_NAME = 'User-Lab-Pipeline';
 
 // 2. Function to trigger the build
@@ -29,4 +29,4 @@ async function triggerUserLab(userEmail) {
   }
 }
 
-triggerUserLab('student@example.com');
+triggerUserLab('vaddeashok81@gmail.com');
